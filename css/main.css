@@ -64,7 +64,7 @@ nav a:hover {
   background-color: orange;
 }
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 25em) {
 
 nav {
   text-align: center;
@@ -79,7 +79,7 @@ nav li {
 }
 }
 
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 40em) {
 
   h1 {
     text-align: left;
@@ -92,12 +92,16 @@ nav li {
   }
 }
 
-@media only screen and (min-width: 980px) {
+@media only screen and (min-width: 61em) {
 
   nav {
     padding-left: 20em;
   }
 
-
+    .box img {
+      display: inline-block;
+      float: left;
+      width: 50%;
+    }
 
 }
