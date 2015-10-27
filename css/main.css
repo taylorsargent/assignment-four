@@ -34,11 +34,15 @@ body {
 }
 
 .header {
-  background-color: lightgrey;
+  background-color: #cbcbcb;
 }
 
 h1 {
   text-align: center;
+}
+
+nav {
+  padding-bottom: 1em;
 }
 
 nav ul {
@@ -56,12 +60,66 @@ nav a {
   padding: 0.5em 0.75em;
   text-decoration: none;
   list-style-type: none;
-  color: black;
+  color: #1579db;
 }
 
 nav a:hover {
   color: white;
-  background-color: orange;
+  background-color: #1579db;
+}
+
+.top-text {
+  background-color: #e2e2e2;
+  text-align: center;
+  font-size: 1.5em;
+  padding: .5em;
+  margin-top: 0;
+  margin-left: 0;
+  margin:-right: 0;
+  margin-bottom: 1em;
+}
+
+p {
+  padding: 1em;
+}
+
+h2 {
+  padding-left: 1em;
+}
+
+.end-text {
+  background-color: #e2e2e2;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.end-text h2 {
+  font-size: 1.25em;
+}
+
+dl {
+  padding-left: 1em;
+}
+
+dt {
+  text-align: left;
+}
+
+dd {
+  margin: 0;
+  text-align: left;
+  padding-bottom: .75em;
+}
+
+footer {
+  background-color: #cbcbcb;
+  margin: 0;
+  width: 100%;
+}
+
+footer p {
+  padding: .5em;
+  margin: 0;
 }
 
 @media only screen and (min-width: 25em) {
@@ -76,6 +134,10 @@ nav li {
 
   nav a {
     display: inline-block;
+}
+
+footer {
+  width: 100%;
 }
 }
 
