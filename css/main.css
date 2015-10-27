@@ -124,6 +124,11 @@ footer p {
 
 @media only screen and (min-width: 25em) {
 
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
 nav {
   text-align: center;
 }
@@ -138,6 +143,11 @@ nav li {
 }
 
 @media only screen and (min-width: 40em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
 
   h1 {
     text-align: left;
@@ -180,14 +190,24 @@ footer nav {
 
 @media only screen and (min-width: 61em) {
 
+  html {
+    font-size: 130%;
+    line-height: 1.6;
+  }
+
   nav {
     padding-left: 20em;
   }
 
-    .box img {
+  .box img {
       display: inline-block;
       float: left;
       width: 50%;
     }
+
+  footer nav {
+      padding-right: 8em;
+    }
+
 
 }
