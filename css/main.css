@@ -91,6 +91,7 @@ h2 {
   background-color: #e2e2e2;
   padding-bottom: 0;
   margin-bottom: 0;
+  width: 100%;
 }
 
 .end-text h2 {
@@ -114,7 +115,6 @@ dd {
 footer {
   background-color: #cbcbcb;
   margin: 0;
-  width: 100%;
 }
 
 footer p {
@@ -135,10 +135,6 @@ nav li {
   nav a {
     display: inline-block;
 }
-
-footer {
-  width: 100%;
-}
 }
 
 @media only screen and (min-width: 40em) {
@@ -152,6 +148,34 @@ footer {
     display: inline-block;
     padding-left: 5em;
   }
+
+.top-venus {
+  padding-bottom: 2em;
+}
+
+dd {
+  margin: 0;
+  text-align: left;
+  padding-bottom: 2em;
+}
+
+footer {
+  overflow: hidden;
+  padding: .5em;
+}
+
+footer p {
+  display: inline-block;
+}
+
+footer nav {
+  float: right;
+  padding-right: 3em;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+
 }
 
 @media only screen and (min-width: 61em) {
