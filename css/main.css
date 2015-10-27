@@ -129,7 +129,7 @@ footer p {
 .img-size {
   padding: 1em;
 }
-
+/*small screen*/
 @media only screen and (min-width: 25em) {
 
   html {
@@ -149,7 +149,7 @@ nav li {
     display: inline-block;
 }
 }
-
+/*medium screen*/
 @media only screen and (min-width: 40em) {
 
   html {
@@ -195,7 +195,7 @@ footer nav {
 }
 
 }
-
+/*large screen*/
 @media only screen and (min-width: 61em) {
 
   html {
@@ -215,5 +215,9 @@ footer nav {
 
   footer nav {
       padding-right: 8em;
+    }
+
+    dl {
+      clear: both;
     }
 }
