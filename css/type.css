@@ -1,6 +1,6 @@
 /*
   Typografier || Code released under the UNLICENSE
-  http://typografier.web-dev.tools/#0,100,1.3,1.067;25,110,1.4,1.125;40,120,1.5,1.125;61,130,1.5,1.125
+  http://typografier.web-dev.tools/#0,100,1.3,1.067;38,110,1.4,1.125;60,120,1.5,1.125;90,130,1.5,1.125
 */
 
 html {
@@ -247,7 +247,7 @@ td, th, fieldset {
   padding-right: 0.3250rem;
 }
 
-@media only screen and (min-width: 25em) {
+@media only screen and (min-width: 38em) {
 
 html {
   font-size: 110%;
@@ -414,7 +414,7 @@ td, th, fieldset {
 
 }
 
-@media only screen and (min-width: 40em) {
+@media only screen and (min-width: 60em) {
 
 html {
   font-size: 120%;
@@ -581,7 +581,7 @@ td, th, fieldset {
 
 }
 
-@media only screen and (min-width: 61em) {
+@media only screen and (min-width: 90em) {
 
 html {
   font-size: 130%;
