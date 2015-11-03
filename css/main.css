@@ -22,7 +22,7 @@ nav li {
 
 nav a {
   display: block;
-  padding: 0.5em 0.75em;
+  padding: 0.5em 0.5em;
   text-decoration: none;
   list-style-type: none;
   color: #1579db;
